@@ -41,3 +41,4 @@ jobs:
         run: |
           ssh -i ~/.ssh/ec2_key "$EC2_USER@$EC2_HOST" \
             "sudo nginx -t && sudo systemctl reload nginx"
+ 
